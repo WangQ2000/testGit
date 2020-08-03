@@ -33,6 +33,7 @@ public class Client03 {
 		System.out.println("总耗时：" + (end - start));
 		System.out.println("分支添加");
 		System.out.println("创建分支");
+		System.out.println("第二次提交前更新");
 		for (int i = 0; i < 5; i++) {
 			System.out.println("创建分支");
 		}

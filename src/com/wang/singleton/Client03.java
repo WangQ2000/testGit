@@ -31,5 +31,6 @@ public class Client03 {
 		cdl.await();//等待其他线程运行完
 		long end = System.currentTimeMillis();
 		System.out.println("总耗时：" + (end - start));
+		System.out.println("分支添加");
 	}
 }

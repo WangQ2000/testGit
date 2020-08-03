@@ -1,4 +1,4 @@
-package com.wang.adstractfactory;
+package com.wang.abstractfactory;
 
 public interface CarFactory {
 

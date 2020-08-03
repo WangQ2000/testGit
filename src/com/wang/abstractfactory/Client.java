@@ -1,4 +1,4 @@
-package com.wang.adstractfactory;
+package com.wang.abstractfactory;
 
 public class Client {
 	public static void main(String[] args) {

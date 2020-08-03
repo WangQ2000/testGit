@@ -11,7 +11,10 @@ public class Client {
 		Star proxy = (Star) Proxy.newProxyInstance(ClassLoader.getSystemClassLoader(), new Class[] { Star.class },
 				handler);
 	
+		proxy.confer();
+		proxy.signContract();
+		proxy.bookTicket();
 		proxy.sing();
-
+		proxy.collectMoney();
 	}
 }

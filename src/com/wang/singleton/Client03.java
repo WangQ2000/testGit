@@ -3,7 +3,7 @@ package com.wang.singleton;
 import java.util.concurrent.CountDownLatch;
 
 /**
- * ²âÊÔ¶àÏß³Ì»·¾³ÏÂÎåÖÖµ¥ÀıÄ£Ê½µÄÔËĞĞĞ§ÂÊ ·ÖÖ§
+ * æµ‹è¯•å¤šçº¿ç¨‹ç¯å¢ƒä¸‹äº”ç§å•ä¾‹æ¨¡å¼çš„è¿è¡Œæ•ˆç‡ åˆ†æ”¯
  * 
  * @author wangQ
  *
@@ -28,13 +28,14 @@ public class Client03 {
 			}).start();
 
 		}
-		cdl.await();// µÈ´ıÆäËûÏß³ÌÔËĞĞÍê
+		cdl.await();// ç­‰å¾…å…¶ä»–çº¿ç¨‹è¿è¡Œå®Œ
 		long end = System.currentTimeMillis();
-		System.out.println("×ÜºÄÊ±£º" + (end - start));
-		System.out.println("·ÖÖ§Ìí¼Ó");
-		System.out.println("´´½¨·ÖÖ§");
+		System.out.println("æ€»è€—æ—¶ï¼š" + (end - start));
+		System.out.println("åˆ†æ”¯æ·»åŠ ");
+		System.out.println("åˆ›å»ºåˆ†æ”¯");
+		System.out.println("åœ¨çº¿æ·»åŠ ");
 		for (int i = 0; i < 5; i++) {
-			System.out.println("´´½¨·ÖÖ§");
+			System.out.println("åˆ›å»ºåˆ†æ”¯");
 		}
 	}
 }
